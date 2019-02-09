@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const mongoosePaginate = require('mongoose-paginate');
 
 const entradaModel = new mongoose.Schema({
     dia: {
@@ -41,5 +42,7 @@ const entradaModel = new mongoose.Schema({
         default: ''
     }
 });
+
+entradaModel.plugin(mongoosePaginate);
 
 mongoose.model('Entrada', entradaModel);

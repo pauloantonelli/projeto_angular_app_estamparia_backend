@@ -9,10 +9,10 @@ module.exports = {
 
         return res.json(getBusca);
     },
-    async getItem(req, res) {
-        const getdoUnico = await entrada.findById(req.params.id);
+    async getUnico(req, res) {
+        const getItem = await entrada.findById(req.params.id);
 
-        return res.json(getdoUnico);
+        return res.json(getItem);
     },
     async setNovo(req, res) {
         const setItem = await entrada.create(req.body);
@@ -20,13 +20,13 @@ module.exports = {
         return res.json(setItem);
     },
     async setUpdate(req, res) {
-        const setItemUpdate = await entrada.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        const setItem = await entrada.findByIdAndUpdate(req.params.id, req.body, { new: true });
 
-        return res.json(setItemUpdate);
+        return res.json(setItem);
     },
     async setDelete(req, res) {
-        const setItemDelete = await entrada.findByIdAndRemove(req.params.id);
+        const setItem = await entrada.findByIdAndRemove(req.params.id);
 
-        return res.send(setItemDelete);
+        return res.send(setItem);
     }
 }

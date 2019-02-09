@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const mongoosePaginate = require('mongoose-paginate');
 
 const pessoasModel = mongoose.Schema({
     nome: {
@@ -51,5 +52,7 @@ const pessoasModel = mongoose.Schema({
         default: ''
     }
 });
+
+pessoasModel.plugin(mongoosePaginate);
 
 mongoose.model('Pessoas', pessoasModel);
