@@ -5,12 +5,12 @@ const orcamentoModel = mongoose.Schema({
         ativo: {
             type: Boolean,
             default: false,
-            require: false,
+            require: true,
         },
         mensagem: {
             type: String,
             default: 'Quadro de avisos',
-            require: false,
+            require: true,
         }
     },
     formulario: {
@@ -30,7 +30,7 @@ const orcamentoModel = mongoose.Schema({
                 default: 'Escolha o serviço que deseja:',
                 require: true,
             },
-            tiposServicos: {
+            tiposDeServicos: {
                 type: Array,
                 default: ['Impressão de transfer', 'Estampa em rolo', 'Estampa localizada'],
                 require: true,
