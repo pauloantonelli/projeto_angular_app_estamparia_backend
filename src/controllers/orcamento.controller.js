@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const metaMensal = mongoose.model('MetaMensal');
+const metaMensal = mongoose.model('Orcamento');
 
 module.exports = {
     async getAll(req, res) {

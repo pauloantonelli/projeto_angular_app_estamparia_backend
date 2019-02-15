@@ -1,11 +1,10 @@
 const mongoose = require('mongoose');
 
-const entrada = mongoose.model('Entrada');
+const entrada = mongoose.model('Contato');
 
 module.exports = {
     async getAll(req, res) {
-        const { page = 1 } = req.query,
-        const getBusca = await entrada.paginate({}, { page: page, limit: 10 });
+        const getBusca = await entrada.find();
 
         return res.json(getBusca);
     },

@@ -1,12 +1,10 @@
 const mongoose = require('mongoose');
-const mongoosePaginate = require('mongoose-paginate');
 
-const pessoas = mongoose.model('Pessoas');
+const pessoas = mongoose.model('Sublimacao');
 
 module.exports = {
     async getAll(req, res) {
-        const { page = 1 } = req.query;
-        const getItem = await pessoas.paginate({}, { page: page, limit: 10 });
+        const getItem = await pessoas.find();
 
         return res.json(getItem);
     },
