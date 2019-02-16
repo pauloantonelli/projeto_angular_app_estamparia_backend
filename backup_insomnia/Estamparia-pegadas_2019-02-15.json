@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2019-02-15T17:14:19.061Z",
+	"__export_date": "2019-02-16T01:09:14.381Z",
 	"__export_source": "insomnia.desktop.app:v6.3.2",
 	"resources": [
 		{
@@ -101,7 +101,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210714,
 			"method": "GET",
-			"modified": 1550245534096,
+			"modified": 1550251711828,
 			"name": "GetAll",
 			"parameters": [],
 			"parentId": "fld_9b1e840a775c4ee9b097e744c499aa46",
@@ -142,7 +142,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos1\"\n\t},\n  \"slide\": {\n  \t\"titulo\": \"Titulo Slide1\",\n    \"subtitulo\": \"subtitulo do slide\",\n    \"imagens\": \"['https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg']\"\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\"\n\t},\n  \"propaganda02\": {\n  \t\"titulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": \"['Moda Fashion', 'Sportswear e Fitnesswear', 'Brinquedos e Fantasia', 'Decoração', 'Brindes Promocionais']\",\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda03\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\"\n  },\n  \"propaganda04\": {\n  \t\"titulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": \"['Impressão offset de transfer para sublimação em grande volume', 'Plotter digital para estampar para qualquer quantidade', 'Design e tratamento de estampas para sublimação', 'Assessoria de design, prova de cores e protótipos', 'Estamparia de tecido em rolo ou localizada']\",\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n\t},\n  \"slide\": {\n  \t\"titulo\": \"Titulo Slide\",\n    \"subtitulo\": \"subtitulo do slide\",\n    \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"]\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\"\n\t},\n  \"propaganda02\": {\n  \t\"titulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": [\n\t\t\t\"Moda Fashion\", \"Sportswear e Fitnesswear\", \"Brinquedos e Fantasia\", \"Decoração\", \"Brindes Promocionais\"],\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda03\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\"\n  },\n  \"propaganda04\": {\n  \t\"titulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": [\n\t\t\t\"Impressão offset de transfer para sublimação em grande volume\", \"Plotter digital para estampar para qualquer quantidade\", \"Design e tratamento de estampas para sublimação\", \"Assessoria de design\", \"prova de cores e protótipos\", \"Estamparia de tecido em rolo ou localizada\"],\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
 			},
 			"created": 1549742299471,
 			"description": "",
@@ -156,7 +156,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210676.5,
 			"method": "POST",
-			"modified": 1550250189799,
+			"modified": 1550277671753,
 			"name": "SetNovo",
 			"parameters": [],
 			"parentId": "fld_9b1e840a775c4ee9b097e744c499aa46",
@@ -174,7 +174,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n\t},\n  \"slide\": {\n  \t\"titulo\": \"Titulo Slide\",\n    \"subtitulo\": \"subtitulo do slide\",\n    \"imagens\": \"['https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg']\"\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\"\n\t},\n  \"propaganda02\": {\n  \t\"titulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": \"['Moda Fashion', 'Sportswear e Fitnesswear', 'Brinquedos e Fantasia', 'Decoração', 'Brindes Promocionais']\",\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda03\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\"\n  },\n  \"propaganda04\": {\n  \t\"titulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": \"['Impressão offset de transfer para sublimação em grande volume', 'Plotter digital para estampar para qualquer quantidade', 'Design e tratamento de estampas para sublimação', 'Assessoria de design, prova de cores e protótipos', 'Estamparia de tecido em rolo ou localizada']\",\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n\t},\n  \"slide\": {\n  \t\"titulo\": \"Titulo Slide\",\n    \"subtitulo\": \"subtitulo do slide\",\n    \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"]\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\"\n\t},\n  \"propaganda02\": {\n  \t\"titulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": [\n\t\t\t\"Moda Fashion\", \"Sportswear e Fitnesswear\", \"Brinquedos e Fantasia\", \"Decoração\", \"Brindes Promocionais\"],\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda03\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\"\n  },\n  \"propaganda04\": {\n  \t\"titulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": [\n\t\t\t\"Impressão offset de transfer para sublimação em grande volume\", \"Plotter digital para estampar para qualquer quantidade\", \"Design e tratamento de estampas para sublimação\", \"Assessoria de design\", \"prova de cores e protótipos\", \"Estamparia de tecido em rolo ou localizada\"],\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
 			},
 			"created": 1549742830951,
 			"description": "",
@@ -188,7 +188,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210670.25,
 			"method": "PUT",
-			"modified": 1550250250730,
+			"modified": 1550262807786,
 			"name": "SetUpdate",
 			"parameters": [],
 			"parentId": "fld_9b1e840a775c4ee9b097e744c499aa46",
@@ -275,7 +275,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\t\t\"logo\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n}"
+				"text": "{\n\t\"logo\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n}"
 			},
 			"created": 1549743308423,
 			"description": "",
@@ -289,7 +289,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210676.5,
 			"method": "POST",
-			"modified": 1550246049424,
+			"modified": 1550277656194,
 			"name": "SetNovo",
 			"parameters": [],
 			"parentId": "fld_779f17187cc744fd8b7d5f3ee5bd0df7",
@@ -390,7 +390,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210689,
 			"method": "GET",
-			"modified": 1550248130483,
+			"modified": 1550271228987,
 			"name": "GetUnico",
 			"parameters": [],
 			"parentId": "fld_32de5b6b3ff64f1da46238af50131d14",
@@ -400,7 +400,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ base_url  }}/orcamento/buscar/5c66e8ac05c977641f28c565",
+			"url": "{{ base_url  }}/orcamento/buscar/5c66e96605c977641f28c566",
 			"_type": "request"
 		},
 		{
@@ -408,7 +408,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": null,\n  \t\"mensagem\": null\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento1\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:1\",\n      \"tiposDeServicos\": \"['Impressão de transfer', 'Estampa em rolo', 'Estampa localizada']\",\n      \"imagens\": \"['https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg']\"\n   \t},\n    \"segmento\": \"['fantasia / brinquedos', 'sportwear / fitness', 'confecção / modinha', 'decoração', 'surf / skate', 'promocional / brindes', 'magazina / private label', 'camisa uniforme de futebol']\",\n    \"detalhamento\": \"Detalhamento técnico da estampa\"\n\t}\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:\",\n      \"tiposDeServicos\": [\n\t\t\t\t\"Impressão de transfer\", \"Estampa em rolo\", \"Estampa localizada\"\n\t\t\t],\n      \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n\t\t\t]\n   },\n   \"segmento\": [\"fantasia / brinquedos\", \"sportwear / fitness\", \"confecção / modinha\", \"decoração\", \"surf / skate\", \"promocional / brindes\", \"magazina / private label\", \"camisa uniforme de futebol\"\n\t\t],\n    \"detalhamento\": \"Detalhamento técnico da estampa\"\n\t}\n}"
 			},
 			"created": 1549744165734,
 			"description": "",
@@ -422,7 +422,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210676.5,
 			"method": "POST",
-			"modified": 1550248292218,
+			"modified": 1550277604185,
 			"name": "SetNovo",
 			"parameters": [],
 			"parentId": "fld_32de5b6b3ff64f1da46238af50131d14",
@@ -440,7 +440,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:\",\n      \"tiposDeServicos\": \"['Impressão de transfer', 'Estampa em rolo', 'Estampa localizada']\",\n      \"imagens\": \"['https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg', 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg']\"\n   \t},\n    \"segmento\": \"['fantasia / brinquedos', 'sportwear / fitness', 'confecção / modinha', 'decoração', 'surf / skate', 'promocional / brindes', 'magazina / private label', 'camisa uniforme de futebol']\",\n    \"detalhamento\": \"Detalhamento técnico da estampa\"\n\t}\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:\",\n      \"tiposDeServicos\": [\n\t\t\t\t\"Impressão de transfer\", \"Estampa em rolo\", \"Estampa localizada\"\n\t\t\t],\n      \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n\t\t\t]\n   },\n   \"segmento\": [\"fantasia / brinquedos\", \"sportwear / fitness\", \"confecção / modinha\", \"decoração\", \"surf / skate\", \"promocional / brindes\", \"magazina / private label\", \"camisa uniforme de futebol\"\n\t\t],\n    \"detalhamento\": \"Detalhamento técnico da estampa\"\n\t}\n}"
 			},
 			"created": 1549744165735,
 			"description": "",
@@ -454,7 +454,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210670.25,
 			"method": "PUT",
-			"modified": 1550248865204,
+			"modified": 1550276984481,
 			"name": "SetUpdate",
 			"parameters": [],
 			"parentId": "fld_32de5b6b3ff64f1da46238af50131d14",
@@ -674,7 +674,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"telefones\": \"['11 1234-5678', '11 8765-4321']\",\n  \"atendimento\": {\n  \t\"diaDaSemana\": \"Segunda a Sexta1\",\n    \"horario\": \"Das 9h00 ás 18h00\"\n  },\n  \"endereco\": {\n  \t\"rua\": \"Rua Xavier Krauss1\",\n    \"numero\": 1,\n    \"bairro\": \"Vila Leopoldina1\",\n    \"cep\": \"05313-000\",\n    \"estado\": \"São Paulo - SP\"\n    }\n}"
+				"text": "{\n\t\"telefones\": [\n\t\t\"11 1234-5678\", \"11 8765-4321\"\n\t],\n  \"atendimento\": {\n  \t\"diaDaSemana\": \"Segunda a Sexta\",\n    \"horario\": \"Das 9h00 ás 18h00\"\n  },\n  \"endereco\": {\n  \t\"rua\": \"Rua Xavier Krauss\",\n    \"numero\": 1,\n    \"bairro\": \"Vila Leopoldina\",\n    \"cep\": \"05313-000\",\n    \"estado\": \"São Paulo - SP\"\n    }\n}"
 			},
 			"created": 1550248375483,
 			"description": "",
@@ -688,7 +688,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210676.5,
 			"method": "POST",
-			"modified": 1550249215032,
+			"modified": 1550277638791,
 			"name": "SetNovo",
 			"parameters": [],
 			"parentId": "fld_f0bb90892189496b9167aae183c4440d",
@@ -706,7 +706,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"telefones\": \"['11 1234-5678', '11 8765-4321']\",\n  \"atendimento\": {\n  \t\"diaDaSemana\": \"Segunda a Sexta\",\n    \"horario\": \"Das 9h00 ás 18h00\"\n  },\n  \"endereco\": {\n  \t\"rua\": \"Rua Xavier Krauss\",\n    \"numero\": 1,\n    \"bairro\": \"Vila Leopoldina\",\n    \"cep\": \"05313-000\",\n    \"estado\": \"São Paulo - SP\"\n    }\n}"
+				"text": "{\n\t\"telefones\": [\n\t\t\"11 1234-5678\", \"11 8765-4321\"\n\t],\n  \"atendimento\": {\n  \t\"diaDaSemana\": \"Segunda a Sexta\",\n    \"horario\": \"Das 9h00 ás 18h00\"\n  },\n  \"endereco\": {\n  \t\"rua\": \"Rua Xavier Krauss\",\n    \"numero\": 1,\n    \"bairro\": \"Vila Leopoldina\",\n    \"cep\": \"05313-000\",\n    \"estado\": \"São Paulo - SP\"\n    }\n}"
 			},
 			"created": 1550248375485,
 			"description": "",
@@ -720,7 +720,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210670.25,
 			"method": "PUT",
-			"modified": 1550249291854,
+			"modified": 1550266345817,
 			"name": "SetUpdate",
 			"parameters": [],
 			"parentId": "fld_f0bb90892189496b9167aae183c4440d",
