@@ -4,6 +4,9 @@ const menuController = require('./controllers/menu.controller');
 const orcamentoController = require('./controllers/orcamento.controller');
 const sublimacaoController = require('./controllers/sublimacao.controller');
 const contatoController = require('./controllers/contato.controller');
+const formularioController = require('./controllers/formulario.controller');
+const emailPromoController = require('./controllers/email.controller');
+
 
 const routes = express.Router();
 
@@ -42,4 +45,17 @@ routes.post('/contato/inserir', contatoController.setNovo);
 routes.put('/contato/editar/:id', contatoController.setUpdate);
 routes.delete('/contato/deletar/:id', contatoController.setDelete);
 
+// formulario
+routes.get('/formulario/todos', formularioController.getAll);
+routes.get('/formulario/buscar/:id', formularioController.getUnico);
+routes.post('/formulario/inserir', formularioController.setNovo);
+routes.put('/formulario/editar/:id', formularioController.setUpdate);
+routes.delete('/formulario/deletar/:id', formularioController.setDelete);
+
+// promo via email
+routes.get('/email/todos', emailPromoController.getAll);
+routes.get('/email/buscar/:id', emailPromoController.getUnico);
+routes.post('/email/inserir', emailPromoController.setNovo);
+routes.put('/email/editar/:id', emailPromoController.setUpdate);
+routes.delete('/email/deletar/:id', emailPromoController.setDelete);
 module.exports = routes;
