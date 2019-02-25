@@ -3,8 +3,8 @@ const mongoosePaginate = require('mongoose-paginate');
 
 const emailPromoModel = mongoose.Schema({
     email: {
-        type: String,
-        require: true,
+            type: String,
+            require: true,
     },
 });
 

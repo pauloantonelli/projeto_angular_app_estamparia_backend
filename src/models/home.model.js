@@ -13,14 +13,14 @@ const homeModel = new mongoose.Schema({
             require: false,
         }
     },
-    slide: {
+    slides: {
         titulo: {
-            type: String,
+            type: Array,
             default: 'Titulo Slide',
             require: false,
         },
         subtitulo: {
-            type: String,
+            type: Array,
             default: 'subtitulo do slide',
             require: false,
         },
@@ -55,10 +55,8 @@ const homeModel = new mongoose.Schema({
             type: String,
             default: 'A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.',
             require: true,
-        }
-    },
-    propaganda02: {
-        titulo: {
+        },
+        subtitulo: {
             type: String,
             default: 'ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS',
             require: true,
@@ -74,7 +72,7 @@ const homeModel = new mongoose.Schema({
             require: true,
         }
     },
-    propaganda03: {
+    propaganda02: {
         imagem: {
             type: String,
             default: 'https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg',
@@ -89,10 +87,8 @@ const homeModel = new mongoose.Schema({
             type: String,
             default: 'Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.',
             require: true,
-        }
-    },
-    propaganda04: {
-        titulo: {
+        },
+        subtitulo: {
             type: String,
             default: 'ESTRUTURA DA ESTAMPARIA DIGITAL',
             require: true,

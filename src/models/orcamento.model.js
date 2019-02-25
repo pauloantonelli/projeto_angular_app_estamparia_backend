@@ -46,11 +46,23 @@ const orcamentoModel = mongoose.Schema({
             default: ['fantasia / brinquedos', 'sportwear / fitness', 'confecção / modinha', 'decoração', 'surf / skate', 'promocional / brindes', 'magazina / private label', 'camisa uniforme de futebol'],
             require: true,
         },
-        detalhamento: {
-            type: String,
-            default: 'Detalhamento técnico da estampa',
+        pedidoMinimo: {
+            type: Number,
+            default: 300,
             require: true,
         },
+    },
+    mensagemDeSucesso: {
+        titulo: {
+            type: String,
+            default: 'Já Recebemos seu orçamento!',
+            require: true,
+        },
+        subtitulo: {
+            type: String,
+            default: 'já ja responderemos de volta, aguarde...',
+            require: true,
+        }
     }
 });
 

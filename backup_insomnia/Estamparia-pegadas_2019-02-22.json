@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2019-02-18T13:30:08.672Z",
+	"__export_date": "2019-02-22T23:04:03.856Z",
 	"__export_source": "insomnia.desktop.app:v6.3.2",
 	"resources": [
 		{
@@ -114,6 +114,39 @@
 			"_type": "request_group"
 		},
 		{
+			"_id": "fld_0347769cac3f435c9706e4688bdc9fcd",
+			"created": 1550868542709,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1549743210320.25,
+			"modified": 1550870897485,
+			"name": "Rodape",
+			"parentId": "wrk_b512897c6616457f9dd143440e77e7b8",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_ba144e24922c4f349b91e8d1706f7a24",
+			"created": 1550872928867,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1549743210317.125,
+			"modified": 1550872938166,
+			"name": "Pre Rodape",
+			"parentId": "wrk_b512897c6616457f9dd143440e77e7b8",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_52bef8c58ee744b29082b6a1a63582ae",
+			"created": 1550874620332,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1549743210315.5625,
+			"modified": 1550874631467,
+			"name": "Portifolio",
+			"parentId": "wrk_b512897c6616457f9dd143440e77e7b8",
+			"_type": "request_group"
+		},
+		{
 			"_id": "req_499767db6c9b4026b9d8c9fe33711c55",
 			"authentication": {},
 			"body": {},
@@ -164,7 +197,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n\t},\n  \"slide\": {\n  \t\"titulo\": \"Titulo Slide\",\n    \"subtitulo\": \"subtitulo do slide\",\n    \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"]\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\"\n\t},\n  \"propaganda02\": {\n  \t\"titulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": [\n\t\t\t\"Moda Fashion\", \"Sportswear e Fitnesswear\", \"Brinquedos e Fantasia\", \"Decoração\", \"Brindes Promocionais\"],\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda03\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\"\n  },\n  \"propaganda04\": {\n  \t\"titulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": [\n\t\t\t\"Impressão offset de transfer para sublimação em grande volume\", \"Plotter digital para estampar para qualquer quantidade\", \"Design e tratamento de estampas para sublimação\", \"Assessoria de design\", \"prova de cores e protótipos\", \"Estamparia de tecido em rolo ou localizada\"],\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n\t},\n  \"slides\": {\n  \t\"titulo\": [\n\t\t\t\"Titulo Slide 1\", \"Titulo Slide 2\", \"Titulo Slide 3\"\n\t\t],\n    \"subtitulo\": [\n\t\t\t\"subtitulo do slide 1\", \"subtitulo do slide 2\", \"subtitulo do slide 3\"\n\t\t],\n    \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"]\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\",\n  \t\"subtitulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": [\n\t\t\t\"Moda Fashion\", \"Sportswear e Fitnesswear\", \"Brinquedos e Fantasia\", \"Decoração\", \"Brindes Promocionais\"],\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda02\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\",\n  \t\"subtitulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": [\n\t\t\t\"Impressão offset de transfer para sublimação em grande volume\", \"Plotter digital para estampar para qualquer quantidade\", \"Design e tratamento de estampas para sublimação\", \"Assessoria de design\", \"prova de cores e protótipos\", \"Estamparia de tecido em rolo ou localizada\"],\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
 			},
 			"created": 1549742299471,
 			"description": "",
@@ -178,7 +211,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210676.5,
 			"method": "POST",
-			"modified": 1550277671753,
+			"modified": 1550841050217,
 			"name": "SetNovo",
 			"parameters": [],
 			"parentId": "fld_9b1e840a775c4ee9b097e744c499aa46",
@@ -196,7 +229,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n\t},\n  \"slide\": {\n  \t\"titulo\": \"Titulo Slide\",\n    \"subtitulo\": \"subtitulo do slide\",\n    \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"]\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\"\n\t},\n  \"propaganda02\": {\n  \t\"titulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": [\n\t\t\t\"Moda Fashion\", \"Sportswear e Fitnesswear\", \"Brinquedos e Fantasia\", \"Decoração\", \"Brindes Promocionais\"],\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda03\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\"\n  },\n  \"propaganda04\": {\n  \t\"titulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": [\n\t\t\t\"Impressão offset de transfer para sublimação em grande volume\", \"Plotter digital para estampar para qualquer quantidade\", \"Design e tratamento de estampas para sublimação\", \"Assessoria de design\", \"prova de cores e protótipos\", \"Estamparia de tecido em rolo ou localizada\"],\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n\t},\n  \"slides\": {\n  \t\"titulo\": [\n\t\t\t\"Titulo Slide 1\", \"Titulo Slide 2\", \"Titulo Slide 3\"\n\t\t],\n    \"subtitulo\": [\n\t\t\t\"subtitulo do slide 1\", \"subtitulo do slide 2\", \"subtitulo do slide 3\"\n\t\t],\n    \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"]\n\t},\n  \"titulo\": \"Estamparia digital\",\n  \"subtitulo\": \"Pegadas - Sublimação é a nossa arte\",\n  \"propaganda01\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Sublimação com tecnologia, qualidade e velocidade\",\n    \"descricao\": \"A produção de moda está cada vez mais personalizada. Na Dharma Prints as possibilidades para estampar suas coleções e produtos são infinitas. Nossa estamparia digital é especializada em imprimir transfer e estampas em tecido. Temos uma história de trabalho de duas décadas, marcada pela qualidade, responsabilidade e fidelidade aos clientes.\",\n  \t\"subtitulo\": \"ESTAMPAMOS TECIDOS E PRODUTOS DE DIVERSOS SEGMENTOS\",\n    \"lista\": [\n\t\t\t\"Moda Fashion\", \"Sportswear e Fitnesswear\", \"Brinquedos e Fantasia\", \"Decoração\", \"Brindes Promocionais\"],\n    \"btnTxt\": \"Conheça a Pegadas Estamparia\"\n\t},\n  \"propaganda02\": {\n  \t\"imagem\": \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\",\n    \"titulo\": \"Estamparia localizada ou em rolo de tecido\",\n    \"descricao\": \"Sublimação sob demanda com tecnologia inovadora que permite produzir qualquer quantidade de estampas com cores incríveis, qualidade e preços acessíveis. Tecidos sintéticos podem ser estampados por meio da técnica de sublimação. Conte consco desde o início do processo: design da estampa, prova de cor e protótipo e estamparia.\",\n  \t\"subtitulo\": \"ESTRUTURA DA ESTAMPARIA DIGITAL\",\n    \"lista\": [\n\t\t\t\"Impressão offset de transfer para sublimação em grande volume\", \"Plotter digital para estampar para qualquer quantidade\", \"Design e tratamento de estampas para sublimação\", \"Assessoria de design\", \"prova de cores e protótipos\", \"Estamparia de tecido em rolo ou localizada\"],\n    \"btnTxt\": \"Estamparia full service\"\n  }\n}"
 			},
 			"created": 1549742830951,
 			"description": "",
@@ -210,7 +243,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210670.25,
 			"method": "PUT",
-			"modified": 1550262807786,
+			"modified": 1550849534883,
 			"name": "SetUpdate",
 			"parameters": [],
 			"parentId": "fld_9b1e840a775c4ee9b097e744c499aa46",
@@ -220,7 +253,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ base_url  }}/home/editar/5c66f0ce38bb796612598978",
+			"url": "{{ base_url  }}/home/editar/5c701477edd75f3bcc028aa8",
 			"_type": "request"
 		},
 		{
@@ -233,7 +266,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210664,
 			"method": "DELETE",
-			"modified": 1550250177905,
+			"modified": 1550849166668,
 			"name": "SetDelete",
 			"parameters": [],
 			"parentId": "fld_9b1e840a775c4ee9b097e744c499aa46",
@@ -243,7 +276,7 @@
 			"settingRebuildPath": true,
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
-			"url": "{{ base_url  }}/home/deletar/5c66f0a138bb796612598977",
+			"url": "{{ base_url  }}/home/deletar/5c6ff4e3edd75f3bcc028aa7",
 			"_type": "request"
 		},
 		{
@@ -430,7 +463,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:\",\n      \"tiposDeServicos\": [\n\t\t\t\t\"Impressão de transfer\", \"Estampa em rolo\", \"Estampa localizada\"\n\t\t\t],\n      \"imagens\": [\n\t\t\t\t\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n\t\t\t]\n   },\n   \"segmento\": [\"fantasia / brinquedos\", \"sportwear / fitness\", \"confecção / modinha\", \"decoração\", \"surf / skate\", \"promocional / brindes\", \"magazina / private label\", \"camisa uniforme de futebol\"\n\t\t],\n    \"detalhamento\": \"Detalhamento técnico da estampa\"\n\t}\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:\",\n      \"tiposDeServicos\": [\n\t\t\t\t\"Impressão de transfer\", \"Estampa em rolo\", \"Estampa localizada\"\n\t\t\t],\n      \"imagens\": [\n\t\t\t\t\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n\t\t\t]\n   },\n   \"segmento\": [\"fantasia / brinquedos\", \"sportwear / fitness\", \"confecção / modinha\", \"decoração\", \"surf / skate\", \"promocional / brindes\", \"magazina / private label\", \"camisa uniforme de futebol\"\n\t\t],\n    \"pedidoMinimo\": 300\n\t},\n\t\"mensagemDeSucesso\": {\n\t\t\"titulo\": \"Já Recebemos seu orçamento!\",\n\t\t\"subtitulo\": \"já ja responderemos de volta, aguarde...\"\n\t}\n}"
 			},
 			"created": 1549744165734,
 			"description": "",
@@ -444,7 +477,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210676.5,
 			"method": "POST",
-			"modified": 1550496270597,
+			"modified": 1550856516629,
 			"name": "SetNovo",
 			"parameters": [],
 			"parentId": "fld_32de5b6b3ff64f1da46238af50131d14",
@@ -462,7 +495,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:\",\n      \"tiposDeServicos\": [\n\t\t\t\t\"Impressão de transfer\", \"Estampa em rolo\", \"Estampa localizada\"\n\t\t\t],\n      \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n\t\t\t]\n   },\n   \"segmento\": [\"fantasia / brinquedos\", \"sportwear / fitness\", \"confecção / modinha\", \"decoração\", \"surf / skate\", \"promocional / brindes\", \"magazina / private label\", \"camisa uniforme de futebol\"\n\t\t],\n    \"detalhamento\": \"Detalhamento técnico da estampa\"\n\t}\n}"
+				"text": "{\n\t\"aviso\": {\n\t\t\"ativo\": false,\n  \t\"mensagem\": \"Quadro de avisos\"\n    },\n  \"formulario\": {\n  \t\"titulo\": \"Orçamento\",\n    \"descricao\": \"Pedir um orçamento expresso para estamparia Pegadas\",\n    \"servicos\": {\n    \t\"titulo\": \"Escolha o serviço que deseja:\",\n      \"tiposDeServicos\": [\n\t\t\t\t\"Impressão de transfer\", \"Estampa em rolo\", \"Estampa localizada\"\n\t\t\t],\n      \"imagens\": [\"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\", \"https://cdn-images-1.medium.com/max/1600/1*aeWo6e6FC8InJwBl3TmpDw.jpeg\"\n\t\t\t]\n   },\n   \"segmento\": [\"fantasia / brinquedos\", \"sportwear / fitness\", \"confecção / modinha\", \"decoração\", \"surf / skate\", \"promocional / brindes\", \"magazina / private label\", \"camisa uniforme de futebol\"\n\t\t],\n    \"pedidoMinimo\": 300\n\t},\n\t\"mensagemDeSucesso\": {\n\t\t\"titulo\": \"Já Recebemos seu orçamento!\",\n\t\t\"subtitulo\": \"já ja responderemos de volta, aguarde...\"\n\t}\n}"
 			},
 			"created": 1549744165735,
 			"description": "",
@@ -476,7 +509,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1549743210670.25,
 			"method": "PUT",
-			"modified": 1550276984481,
+			"modified": 1550856532306,
 			"name": "SetUpdate",
 			"parameters": [],
 			"parentId": "fld_32de5b6b3ff64f1da46238af50131d14",
@@ -1042,6 +1075,405 @@
 			"settingSendCookies": true,
 			"settingStoreCookies": true,
 			"url": "{{ base_url  }}/formulario/deletar/5c6ab28f0dc1642c4ded6cf1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_69948cfddc7049fa9819f3b1c88dad88",
+			"authentication": {},
+			"body": {},
+			"created": 1550868542712,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210714,
+			"method": "GET",
+			"modified": 1550869715451,
+			"name": "GetAll",
+			"parameters": [],
+			"parentId": "fld_0347769cac3f435c9706e4688bdc9fcd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/rodape/todos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_36ae1dca89714c40bdb9946e538c7af7",
+			"authentication": {},
+			"body": {},
+			"created": 1550868542720,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210689,
+			"method": "GET",
+			"modified": 1550870877779,
+			"name": "GetUnico",
+			"parameters": [],
+			"parentId": "fld_0347769cac3f435c9706e4688bdc9fcd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/rodape/buscar/5c706952ab49976c9280ed83",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7a034c306dbf44e185b224a096dcc611",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"rodape\": {\n\t\t\"titulo\": \"Receba promoções e dicas\",\n\t\t\"subtitulo\": \"Cadastre o seu email e receba a newsletter da equipe Dharma, tendências de estampas, dicas sobre sublimação e muito mais!\",\n\t\t\"btnTxt\": \"Receber as promoções\",\n\t\t\"sucesso\": \"Cadastro feito com sucesso! Em breve voce receberá novas promoções! Fique ligado ;)\"\n\t},\n\t\"redesSociais\": {\n\t\t\"icones\": [\n\t\t\t\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png\"\n\t\t],\n\t\t\"links\": [\n\t\t\t\"https://facebook.com/pauloantonelli\", \"https://instagram.com/pauloantonelli\"\n\t\t]\n\t}\n}"
+			},
+			"created": 1550868542722,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_81789de02a834ce490854687944c3121",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549743210676.5,
+			"method": "POST",
+			"modified": 1550870862943,
+			"name": "SetNovo",
+			"parameters": [],
+			"parentId": "fld_0347769cac3f435c9706e4688bdc9fcd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/rodape/inserir",
+			"_type": "request"
+		},
+		{
+			"_id": "req_519df7d95a3745f9b7635d13134084d6",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"rodape\": {\n\t\t\"titulo\": \"Receba promoções e dicas\",\n\t\t\"subtitulo\": \"Cadastre o seu email e receba a newsletter da equipe Dharma, tendências de estampas, dicas sobre sublimação e muito mais!\",\n\t\t\"btnTxt\": \"Receber as promoções\",\n\t\t\"sucesso\": \"Cadastro feito com sucesso! Em breve voce receberá novas promoções! Fique ligado ;)222\"\n\t},\n\t\"redesSociais\": {\n\t\t\"icones\": [\n\t\t\t\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png\"\n\t\t],\n\t\t\"links\": [\n\t\t\t\"https://facebook.com/pauloantonelli\", \"https://instagram.com/pauloantonelli\"\n\t\t]\n\t}\n}"
+			},
+			"created": 1550868542724,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_81789de02a834ce490854687944c3121",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549743210670.25,
+			"method": "PUT",
+			"modified": 1550872018747,
+			"name": "SetUpdate",
+			"parameters": [],
+			"parentId": "fld_0347769cac3f435c9706e4688bdc9fcd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/rodape/editar/5c706952ab49976c9280ed83",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a0e038664a094116bab0bc0f78cba266",
+			"authentication": {},
+			"body": {},
+			"created": 1550868542726,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210664,
+			"method": "DELETE",
+			"modified": 1550870814114,
+			"name": "SetDelete",
+			"parameters": [],
+			"parentId": "fld_0347769cac3f435c9706e4688bdc9fcd",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/rodape/deletar/5c706681ab49976c9280ed82",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9e88b746c52a43e5a338ee74fe10d9f8",
+			"authentication": {},
+			"body": {},
+			"created": 1550872928873,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210714,
+			"method": "GET",
+			"modified": 1550872960604,
+			"name": "GetAll",
+			"parameters": [],
+			"parentId": "fld_ba144e24922c4f349b91e8d1706f7a24",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/pre-rodape/todos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f54846e0b0ba4212a3123e4a08b6f7ae",
+			"authentication": {},
+			"body": {},
+			"created": 1550872928877,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210689,
+			"method": "GET",
+			"modified": 1550872969115,
+			"name": "GetUnico",
+			"parameters": [],
+			"parentId": "fld_ba144e24922c4f349b91e8d1706f7a24",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/pre-rodape/buscar/5c706952ab49976c9280ed83",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7c238327c93743c6aeae170c53c8a36b",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"certificado01\": {\n\t\t\"titulo\": \"Abvtex\",\n\t\t\"img\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\",\n\t\t\"descricao\": \"A Sublimação Pegadas é fornecedora textil certificada e reconhecida pela Abvtex. Mantém-se fiel aos seus princípios que são a ética e o respeito à legislação, apoiando ações que visem a responsabilidade social, a formalização nas relações comerciais e o combate à concorrência fraudulenta.\"\n\t},\n\t\"certificado02\": {\n\t\t\"titulo\": \"Fama Disney\",\n\t\t\"img\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png\",\n\t\t\"descricao\": \"É uma imensa satisfação fazer parte da cadeia de produção dos produtos Disney e ser reconhecida por proporcionar um local de trabalho seguro, inclusivo e respeitoso, de acordo com o Programa de Normas Internacionais de Trabalho da Walt Disney Company.\"\n\t}\n}"
+			},
+			"created": 1550872928879,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_81789de02a834ce490854687944c3121",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549743210676.5,
+			"method": "POST",
+			"modified": 1550873363625,
+			"name": "SetNovo",
+			"parameters": [],
+			"parentId": "fld_ba144e24922c4f349b91e8d1706f7a24",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/pre-rodape/inserir",
+			"_type": "request"
+		},
+		{
+			"_id": "req_b078a6e214d04cedb4e0c407a590548a",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"certificado01\": {\n\t\t\"titulo\": \"Abvtex\",\n\t\t\"img\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\",\n\t\t\"descricao\": \"A Sublimação Pegadas é fornecedora textil certificada e reconhecida pela Abvtex. Mantém-se fiel aos seus princípios que são a ética e o respeito à legislação, apoiando ações que visem a responsabilidade social, a formalização nas relações comerciais e o combate à concorrência fraudulenta.\"\n\t},\n\t\"certificado02\": {\n\t\t\"titulo\": \"Fama Disney\",\n\t\t\"img\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png\",\n\t\t\"descricao\": \"É uma imensa satisfação fazer parte da cadeia de produção dos produtos Disney e ser reconhecida por proporcionar um local de trabalho seguro, inclusivo e respeitoso, de acordo com o Programa de Normas Internacionais de Trabalho da Walt Disney Company.\"\n\t}\n}"
+			},
+			"created": 1550872928881,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_81789de02a834ce490854687944c3121",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549743210670.25,
+			"method": "PUT",
+			"modified": 1550873353741,
+			"name": "SetUpdate",
+			"parameters": [],
+			"parentId": "fld_ba144e24922c4f349b91e8d1706f7a24",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/pre-rodape/editar/5c7071d544306671b08b4bc2",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0756bc33099f436c9616039b3ac370ec",
+			"authentication": {},
+			"body": {},
+			"created": 1550872928882,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210664,
+			"method": "DELETE",
+			"modified": 1550872976847,
+			"name": "SetDelete",
+			"parameters": [],
+			"parentId": "fld_ba144e24922c4f349b91e8d1706f7a24",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/pre-rodape/deletar/5c706681ab49976c9280ed82",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5e0585960b974fb0b9e67426e9548917",
+			"authentication": {},
+			"body": {},
+			"created": 1550874620346,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210714,
+			"method": "GET",
+			"modified": 1550874643774,
+			"name": "GetAll",
+			"parameters": [],
+			"parentId": "fld_52bef8c58ee744b29082b6a1a63582ae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/portifolio/todos",
+			"_type": "request"
+		},
+		{
+			"_id": "req_7dbd7aa8542f474abb0e4af8ab2d6973",
+			"authentication": {},
+			"body": {},
+			"created": 1550874620352,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210689,
+			"method": "GET",
+			"modified": 1550874656648,
+			"name": "GetUnico",
+			"parameters": [],
+			"parentId": "fld_52bef8c58ee744b29082b6a1a63582ae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/portifolio/buscar/5c706952ab49976c9280ed83",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a520d54b93dd4d2fbaf2d9b9828ed01d",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"portifolio\": {\n\t\t\"titulo\": \"Portifolio\",\n\t\t\"subtitulo\": \"A melhor forma de conhecer a qualidade dos nossos serviços é através daqueles com quem trabalhamos.\",\n\t\t\"imagens\": [\n\t\t\t\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\"\n\t\t]\n\t}\n}"
+			},
+			"created": 1550874620353,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_81789de02a834ce490854687944c3121",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549743210676.5,
+			"method": "POST",
+			"modified": 1550874925817,
+			"name": "SetNovo",
+			"parameters": [],
+			"parentId": "fld_52bef8c58ee744b29082b6a1a63582ae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/portifolio/inserir",
+			"_type": "request"
+		},
+		{
+			"_id": "req_d538d2e6b67345abb20cfbcc3ac09af3",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"portifolio\": {\n\t\t\"titulo\": \"Clientes\",\n\t\t\"subtitulo\": \"A melhor forma de conhecer a qualidade dos nossos serviços é através daqueles com quem trabalhamos.222\",\n\t\t\"imagens\": [\n\t\t\t\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\", \"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png\"\n\t\t]\n\t}\n}"
+			},
+			"created": 1550874620355,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_81789de02a834ce490854687944c3121",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1549743210670.25,
+			"method": "PUT",
+			"modified": 1550874899465,
+			"name": "SetUpdate",
+			"parameters": [],
+			"parentId": "fld_52bef8c58ee744b29082b6a1a63582ae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/portifolio/editar/5c7078c1f5cf9e7546fb3aca",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6644b31d72304edbb22df50dc857bb6d",
+			"authentication": {},
+			"body": {},
+			"created": 1550874620357,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1549743210664,
+			"method": "DELETE",
+			"modified": 1550874849085,
+			"name": "SetDelete",
+			"parameters": [],
+			"parentId": "fld_52bef8c58ee744b29082b6a1a63582ae",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/portifolio/deletar/5c70789cf5cf9e7546fb3ac9",
 			"_type": "request"
 		}
 	]
