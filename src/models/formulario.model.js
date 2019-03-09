@@ -1,71 +1,75 @@
-const mongoose = require('mongoose');
-const paginate = require('mongoose-paginate');
+const mongoose = require("mongoose");
+const paginate = require("mongoose-paginate");
 
 const formularioModel = mongoose.Schema({
+  formularioCliente: {
     nome: {
-        type: String,
-        require: true,
+      type: String,
+      require: true
     },
     email: {
-        type: String,
-        require: true,
+      type: String,
+      require: true
     },
-    telefone: {
-        type: Number,
-        require: false,
+    telefoneFixo: {
+      type: Array,
+      require: false
     },
     celular: {
-        type: Number,
-        require: false,
+      type: Array,
+      require: true
     },
     empresa: {
-        type: String,
-        require: false,
+      type: String,
+      require: false
     },
-    cpf: {
-        type: Number,
-        require: false,
-    },
-    cnpj: {
-        type: Number,
-        require: false,
+    tipoPessoa: {
+        tipo: {
+            type: String,
+            require: false
+        },
+        numero: {
+            type: String,
+            require: false,
+        },
     },
     segmento: {
-        type: String,
-        require: true,
+      type: String,
+      require: false
     },
-    tipoServico: {
-        type: String,
-        require: false,
+    servicoEscolhido: {
+      type: String,
+      require: false
     },
     detalhamento: {
-        largura: {
-            type: Number,
-            require: false,
-        },
-        altura: {
-            type: Number,
-            require: false,
-        },
-        quantidade: {
-            type: Number,
-            require: false,
-        },
-        cor: {
-            type: String,
-            require: false,
-        },
-        mensagem: {
-            type: String,
-            require: false,
-        },
-        anexo: {
-            type: String,
-            require: false,
-        },
+      largura: {
+        type: Number,
+        require: false
+      },
+      altura: {
+        type: Number,
+        require: false
+      },
+      quantidade: {
+        type: Number,
+        require: false
+      },
+      cor: {
+        type: String,
+        require: false
+      },
+      mensagem: {
+        type: String,
+        require: false
+      },
+      anexo: {
+        type: String,
+        require: false
+      }
     }
+  }
 });
 
 formularioModel.plugin(paginate);
 
-mongoose.model('Formulario', formularioModel);
+mongoose.model("Formulario", formularioModel);

@@ -44,7 +44,7 @@ const contatoModel = mongoose.Schema({
             default: 'São Paulo - SP',
             require: true,
         }
-    }
+    },
 });
 
 mongoose.model('Contato', contatoModel);

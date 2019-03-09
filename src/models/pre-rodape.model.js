@@ -6,7 +6,7 @@ const preRodapePromoModel = mongoose.Schema({
             type: String,
             require: true,
         },
-        img: {
+        imagem: {
             type: String,
             require: true,
         },
@@ -20,7 +20,7 @@ const preRodapePromoModel = mongoose.Schema({
             type: String,
             require: true,
         },
-        img: {
+        imagem: {
             type: String,
             require: true,
         },

@@ -4,6 +4,7 @@ const menuController = require('./controllers/menu.controller');
 const orcamentoController = require('./controllers/orcamento.controller');
 const sublimacaoController = require('./controllers/sublimacao.controller');
 const contatoController = require('./controllers/contato.controller');
+const mensagemContatoController = require('./controllers/mensagem-contato.controller');
 const portifolioController = require('./controllers/portifolio.controller');
 const formularioController = require('./controllers/formulario.controller');
 const emailPromoController = require('./controllers/email.controller');
@@ -46,6 +47,13 @@ routes.get('/contato/buscar/:id', contatoController.getUnico);
 routes.post('/contato/inserir', contatoController.setNovo);
 routes.put('/contato/editar/:id', contatoController.setUpdate);
 routes.delete('/contato/deletar/:id', contatoController.setDelete);
+
+// mensagem contato
+routes.get('/mensagem-contato/todos', mensagemContatoController.getAll);
+routes.get('/mensagem-contato/buscar/:id', mensagemContatoController.getUnico);
+routes.post('/mensagem-contato/inserir', mensagemContatoController.setNovo);
+routes.put('/mensagem-contato/editar/:id', mensagemContatoController.setUpdate);
+routes.delete('/mensagem-contato/deletar/:id', mensagemContatoController.setDelete);
 
 // portifolio
 routes.get('/portifolio/todos', portifolioController.getAll);
