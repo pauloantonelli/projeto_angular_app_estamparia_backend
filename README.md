@@ -1,4 +1,4 @@
-# Projeto Estamparia - Painel Administrativo
+# Projeto Estamparia - Backend NodeJS
 
 Frontend Angular 2+: https://github.com/pauloantonelli/projeto_angular_app_estamparia_frontend
 
